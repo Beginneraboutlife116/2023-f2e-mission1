@@ -1,3 +1,62 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+	body {
+		@apply leading-normal text-slate-700;
+		font-size: 1rem;
+	}
+
+	h1 {
+		font-size: 2rem;
+	}
+
+	h2,
+	h3,
+	h4 {
+		font-size: 1.5rem;
+	}
+
+	h5 {
+		font-size: 1.25rem;
+	}
+
+	h6 {
+		@apply text-base;
+	}
+
+	@media screen('2xl') {
+		h1 {
+			font-size: 2.5rem;
+		}
+
+		h2 {
+			font-size: 2rem;
+		}
+
+		h3 {
+			font-size: 1.75rem;
+		}
+
+		h4 {
+			font-size: 1.5rem;
+		}
+	}
+}
+
+@layer utilities {
+	.text-huge {
+		font-size: 3.25rem;
+	}
+
+	.text-secondary {
+		@apply text-slate-500;
+	}
+
+	@media screen('2xl') {
+		.text-huge {
+			font-size: 4rem;
+		}
+	}
+}
