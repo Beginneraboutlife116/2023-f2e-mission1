@@ -9,7 +9,8 @@ export default {
 			},
 			colors: {
 				white: {
-					85: '#FFFFFFD9',
+					85: 'rgba(255, 255, 255, 0.85)',
+					90: 'rgba(255, 255, 255, 0.90)',
 					100: '#FFF',
 				},
 				theme: {
@@ -19,6 +20,7 @@ export default {
 				primary: '#DA7D4A',
 			},
 			fontSize: {
+				xs: ['0.625rem', 'normal'],
 				sm: ['0.875rem', '1.3125rem'],
 				base: ['1rem', '1.5rem'],
 				lg: ['1.125rem', '1.6875rem'],

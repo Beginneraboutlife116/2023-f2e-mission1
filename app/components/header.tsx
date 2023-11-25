@@ -3,8 +3,8 @@ import images from '../assets/images';
 
 function Header() {
 	return (
-		<header className='md:px-6 md:py-4 md:bg-theme-1'>
-			<div className='flex px-4 py-3 bg-white-85 md:px-6 md:rounded-2xl items-center'>
+		<header className='lg:px-6 lg:py-4 lg:bg-theme-1'>
+			<div className='flex px-4 py-3 bg-white-85 lg:px-6 lg:rounded-2xl items-center'>
 				<img
 					src={images.logo}
 					alt=''
@@ -14,8 +14,7 @@ function Header() {
 				/>
 				<p className='text-primary text-xl'>喵立翰 Miao Li-Han</p>
 				<Navbar />
-				<div className='flex gap-4'>
-					{/* max-[768px]:absolute */}
+				<div className='flex gap-4 max-lg:ms-auto max-sm:absolute'>
 					<img
 						src={images.fbIcon}
 						alt='facebook'
